@@ -1,0 +1,117 @@
+
+// ===========================================================================
+.wrapper{
+    width: 1349px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-weight: 400;	
+}
+// ============================ервый екран====================================
+.first-screen{
+	height:700px;
+	box-sizing:border-box;
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
+}
+.heading{
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}.logo-two{
+    display: none;
+}
+.menu>ul{
+	display: flex;
+	margin:0 0px;
+}
+.menu>ul>li{
+	padding-right: 70px;
+}
+.menu>ul>li>a{
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+}
+.menu-action a:after {
+    display: block;
+    content: "";
+    background-color: white;
+    height: 3px;
+    margin-top: 5px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.menu-action a:hover:after,
+.menu-action a:focus:after {
+    width: 100%;}
+/*---------------------------------------------------------*/
+.contact{
+    display: flex;
+    color: white;
+}
+.contact img{
+    padding: 0 5px;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    font-size: 14px;
+}
+/*--------------------------------------------------------*/
+.first-screen-content{
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 115px;
+	color: white;
+}
+.offer{
+    margin-top: -41px;
+}
+.offer-title{
+    width: 500px;
+	font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.offer-description{
+    width: 500px;
+	padding: 50px 60px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.offer-img{
+    width: 530px;
+    height: 450px;
+}
+/*------------------------------------------*/
+footer{
+box-sizing:border-box;
+width: 100%;
+background: #336699;
+text-align: center;
+color: white;
+padding:10px;
+font-size: 13px;
+font-weight: 300;
+}

@@ -1,0 +1,25 @@
+.element-form-one {
+  width: 940px;
+  height: 255px;
+  -webkit-box-shadow: 0 0 10px rgba(51, 102, 153, 0.5);
+          box-shadow: 0 0 10px rgba(51, 102, 153, 0.5);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.element-form-one-hover {
+  border-radius: 20px 20px 0 0;
+  background-color: #336699;
+}
+
+.element-form-one-hover p {
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+/*# sourceMappingURL=poll.css.map */
