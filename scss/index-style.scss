@@ -1,0 +1,41 @@
+header{
+    // z-index: 2;
+    height:700px;
+	box-sizing:border-box;
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
+}
+.background-two{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 760px;
+    z-index: 3;
+    top: 36px;
+    right: 169px;
+    }
+.first-screen-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+    >.offer{
+        display: block;
+        margin-top: -75px;
+        >.offer-title{
+                >h1{
+                font-size: 34px;
+                font-weight: 900;
+                color: white; 
+                line-height: 40px;
+                }
+            }
+        >.offer-description{
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            line-height: 26px;
+        }
+    }
+   
+}
