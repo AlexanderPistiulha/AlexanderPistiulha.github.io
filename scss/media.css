@@ -9,6 +9,11 @@
   .stages-work-content-media {
     display: none;
   }
+  .header {
+    background-image: none;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#24c6dc), to(#514a9d));
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1150px) {
