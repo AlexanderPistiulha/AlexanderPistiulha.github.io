@@ -188,7 +188,7 @@
 
 /* Button on photostack container */
 .js .photostack::after {
-	content: 'View Gallery';
+	content: 'Смотреть работы';
 	font-weight: 400;
 	position: absolute;
 	border: 3px solid #fff;
@@ -302,8 +302,8 @@ figure.photostack-current::after {
 /* Some custom styles for the demo */
 
 /* Since we don't have back sides for the first photo stack, we don't want the current dot to become too big */
-#photostack-1 nav span.current {
+/* #photostack-1 nav span.current {
 	background:  #336699;
 	-webkit-transform: scale(0.61);
 	transform: scale(0.61);
-}
+} */

@@ -114,7 +114,7 @@ a:hover, a:focus {
 	content: "\e004";
 }
 
-.description {
+/* .description {
 	background: #336699;
 	color: white;
     height: 190px;
@@ -123,10 +123,10 @@ a:hover, a:focus {
 }
 
 .description p {
-	/* font-size: 200%; */
+
 	text-align: center;
-	/* max-width: 800px; */
-}
+
+} */
 
 .description p,
 .codrops-header p {
