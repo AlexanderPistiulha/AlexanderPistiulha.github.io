@@ -43,6 +43,11 @@
   .stages-work-content-media {
     display: block;
   }
+  .header {
+    background-image: none;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#24c6dc), to(#514a9d));
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
+  }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
@@ -72,6 +77,11 @@
   }
   .call-to-action-content {
     padding: 40px;
+  }
+  .header {
+    background-image: none;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#24c6dc), to(#514a9d));
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
   }
 }
 
@@ -108,6 +118,11 @@
   }
   .call-to-action-content {
     padding: 30px;
+  }
+  .header {
+    background-image: none;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#24c6dc), to(#514a9d));
+    background-image: linear-gradient(to bottom right, #24c6dc, #514a9d);
   }
 }
 /*# sourceMappingURL=media.css.map */

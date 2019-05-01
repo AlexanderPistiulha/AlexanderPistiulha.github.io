@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=portfolio-style.css.map */
+.header {
+  height: 700px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(../img/background-one.png);
+}
+
+.first-screen-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 200px;
+}
+
+.first-screen-content > .offer > .offer-title > h1 {
+  text-shadow: 2px 2px 20px #1d4960;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #def7fa;
+  line-height: 40px;
+}
+/*# sourceMappingURL=portfolio-style.css.map */

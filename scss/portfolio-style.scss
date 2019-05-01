@@ -1,0 +1,23 @@
+
+.header{
+    height:700px;
+	box-sizing:border-box;
+    background-image: url(../img/background-one.png);
+}
+.first-screen-content{
+    box-sizing: border-box;
+    margin-top: 200px;
+    >.offer{
+        >.offer-title{
+                >h1{
+                    text-shadow: 2px 2px 20px #1d4960;
+                text-align: center;
+                font-size: 40px;
+                font-weight: 900;
+                color: #def7fa; 
+                line-height: 40px;
+                }
+               
+            }
+    }   
+}
